@@ -9,7 +9,7 @@ setup(name='keras_contrib',
       author_email='farizrahman4u@gmail.com',
       url='https://github.com/farizrahman4u/keras-contrib',
       license='MIT',
-      install_requires=['keras'],
+      install_requires=[],
       extras_require={
           'h5py': ['h5py'],
           'visualize': ['pydot>=1.2.0'],
