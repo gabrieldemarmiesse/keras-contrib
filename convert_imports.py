@@ -6,7 +6,7 @@ strings_to_replace = [('import keras', 'from tensorflow.python import keras'),
 
 
 def replace_imports(file_path):
-    if not file_path.endwith('.py'):
+    if not file_path.endswith('.py'):
         return
     with open(file_path, 'r') as f:
         text = f.read()
