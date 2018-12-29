@@ -1,8 +1,8 @@
 import os
 
-strings_to_replace = [('import keras', 'import tensorflow.python.keras'),
-                      ('from keras.', 'from tensorflow.python.keras.'),
-                      ('from keras import', 'from tensorflow.python.keras import')]
+strings_to_replace = [('import keras', 'import tensorflow.keras'),
+                      ('from keras.', 'from tensorflow.keras.'),
+                      ('from keras import', 'from tensorflow.keras import')]
 
 
 def replace_imports(file_path):
